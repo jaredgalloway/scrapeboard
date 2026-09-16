@@ -1,0 +1,35 @@
+# config.yml — what to scrape. Edit this, not the Python, to change targets.
+#
+# Each top-level key is a data source (see scrapeboard/sources/). The Python
+# code for a source reads its own block. Keeping targets in data (YAML) rather
+# than code is a small "twelve-factor" habit: config changes shouldn't need a
+# code review of Python.
+
+open_meteo:
+  # Open-Meteo is a free weather API that needs no API key. We poll the
+  # "current" conditions for a handful of cities and accumulate a time series.
+  cities:
+    - { name: "Seattle",   lat: 47.61,  lon: -122.33 }
+    - { name: "Bozeman",   lat: 45.68,  lon: -111.04 }
+    - { name: "New York",  lat: 40.71,  lon: -74.01 }
+    - { name: "London",    lat: 51.51,  lon: -0.13 }
+    - { name: "Tokyo",     lat: 35.68,  lon: 139.69 }
+    - { name: "Sydney",    lat: -33.87, lon: 151.21 }
+
+hackernews:
+  # Plain HTML scraping of the Hacker News front page — no API, we parse the
+  # DOM with BeautifulSoup. Demonstrates the "webpage" flavour of scraping.
+  url: "https://news.ycombinator.com/"
+  top_n: 30
+
+github:
+  # The GitHub REST API. Works anonymously (60 req/h) but honours an optional
+  # GITHUB_TOKEN env var (5 000 req/h). Demonstrates the "API key" flavour:
+  # the key lives in the environment, never in this file or the code.
+  repos:
+    - pandas-dev/pandas
+    - pola-rs/polars
+    - duckdb/duckdb
+    - prefix-dev/pixi
+    - astral-sh/uv
+    - plotly/plotly.js

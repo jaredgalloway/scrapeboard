@@ -1,0 +1,50 @@
+# pixi.toml — the single source of truth for this project's environment AND its
+# runnable commands. `pixi install` builds .pixi/envs/default from the pinned
+# pixi.lock; `pixi run <task>` executes a task inside that environment.
+#
+# Concept: "project-declares-its-tool". Nobody should ever need a global Python
+# install to work on this repo — every command runs through `pixi run`.
+
+[workspace]
+name = "scrapeboard"
+version = "0.1.0"
+description = "The 'Hello, world' of a scrape → transform → publish data pipeline with a static dashboard."
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]   # dev laptop + GitHub Actions runners
+
+# ── Runtime dependencies (conda-forge) ───────────────────────────────────────
+[dependencies]
+python = ">=3.12,<3.14"
+requests = ">=2.32"          # HTTP client for both JSON APIs and HTML pages
+beautifulsoup4 = ">=4.12"    # HTML parsing for the web-scraping source
+lxml = ">=5"                 # fast parser backend for BeautifulSoup
+pandas = ">=2.2"             # the tidy-table layer (append, dedupe, aggregate)
+typer = ">=0.12"             # the CLI (`scrapeboard scrape|build|serve`)
+pyyaml = ">=6"               # data-source config lives in config.yml
+
+# ── Dev-only dependencies ────────────────────────────────────────────────────
+[feature.dev.dependencies]
+pytest = ">=8"
+pytest-cov = ">=5"
+ruff = ">=0.6"
+responses = ">=0.25"         # mock the `requests` library in tests (no network)
+
+[environments]
+default = { features = ["dev"], solve-group = "default" }
+
+# ── The package itself, installed editable so `scrapeboard` imports resolve ──
+[pypi-dependencies]
+scrapeboard = { path = ".", editable = true }
+
+# ── Tasks: `pixi run <name>` ─────────────────────────────────────────────────
+# Every task is documented in README.md > "Commands". Keep these in sync.
+[tasks]
+scrape   = { cmd = "scrapeboard scrape", description = "Fetch every source, snapshot raw payloads, append tidy rows" }
+build    = { cmd = "scrapeboard build",  description = "Render data/tidy/*.csv into site/data/*.json for the dashboard" }
+pipeline = { depends-on = ["scrape", "build"], description = "scrape + build (what CI runs)" }
+serve    = { cmd = "scrapeboard serve",  description = "Serve ./site on http://localhost:8000 for local preview" }
+sources  = { cmd = "scrapeboard sources", description = "List registered data sources" }
+test     = { cmd = "pytest -q", description = "Run the offline test-suite (fixtures, no network)" }
+lint     = { cmd = "ruff check . && ruff format --check .", description = "Static checks" }
+fmt      = { cmd = "ruff check --fix . && ruff format .", description = "Auto-format" }
+check    = { depends-on = ["lint", "test"], description = "Everything CI's quality gate runs" }

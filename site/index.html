@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>scrapeboard</title>
+  <meta name="description" content="A hello-world scrape → transform → publish pipeline, and the dashboard it feeds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232a78d6'/%3E%3Cpath d='M7 22h4v-8H7zm7 0h4V8h-4zm7 0h4v-5h-4z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Apply a saved theme before first paint so the page never flashes.
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (_) {}
+  </script>
+</head>
+<body>
+<a class="skip" href="#weather">Skip to charts</a>
+
+<header class="masthead">
+  <div class="masthead-row">
+    <h1>scrapeboard</h1>
+    <div class="masthead-tools">
+      <span id="freshness" class="freshness" aria-live="polite">loading…</span>
+      <button id="theme-toggle" class="ghost" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </div>
+  <p class="lede">
+    Three upstreams, scraped every six hours by a scheduled GitHub Actions job, appended to
+    plain CSV tables, and rendered here as a static page. No server, no database, no cost.
+    <a href="https://github.com/jaredgalloway/scrapeboard">Read the code and the docs.</a>
+  </p>
+</header>
+
+<!-- The hero: the pipeline itself, as a status board. -->
+<section class="pipeline" aria-labelledby="pipeline-h">
+  <h2 id="pipeline-h" class="visually-hidden">Pipeline status</h2>
+  <div class="stages" role="list">
+    <div class="stage" role="listitem" data-source="open_meteo">
+      <div class="stage-head">
+        <span class="stage-kind">JSON API, no key</span>
+        <span class="stage-name">Open-Meteo</span>
+      </div>
+      <div class="stage-body"></div>
+      <div class="runs" aria-label="Recent runs"></div>
+    </div>
+    <div class="stage" role="listitem" data-source="hackernews">
+      <div class="stage-head">
+        <span class="stage-kind">HTML page, parsed</span>
+        <span class="stage-name">Hacker News</span>
+      </div>
+      <div class="stage-body"></div>
+      <div class="runs" aria-label="Recent runs"></div>
+    </div>
+    <div class="stage" role="listitem" data-source="github">
+      <div class="stage-head">
+        <span class="stage-kind">REST API, token from env</span>
+        <span class="stage-name">GitHub</span>
+      </div>
+      <div class="stage-body"></div>
+      <div class="runs" aria-label="Recent runs"></div>
+    </div>
+  </div>
+  <p class="stages-foot">Each strip is the last twenty runs, oldest on the left. A red cell is a run where that source failed; the other two still published.</p>
+</section>
+
+<div class="filters" role="group" aria-label="Time range">
+  <span class="filters-label">Show</span>
+  <button type="button" data-range="1">last 24 hours</button>
+  <button type="button" data-range="7">last 7 days</button>
+  <button type="button" data-range="30">last 30 days</button>
+  <button type="button" data-range="all" aria-pressed="true">everything</button>
+</div>
+
+<main>
+  <section id="weather" class="panel" aria-labelledby="weather-h">
+    <div class="panel-head">
+      <h2 id="weather-h">Temperature, six cities</h2>
+      <p>Current conditions from the free Open-Meteo forecast API. One request per run returns all six cities; each run adds one point per line.</p>
+    </div>
+    <div class="chart" id="chart-weather" aria-label="Temperature over time by city"></div>
+    <details class="table-view">
+      <summary>Latest readings as a table</summary>
+      <div class="table-scroll"><table id="table-weather"></table></div>
+    </details>
+  </section>
+
+  <section id="hn" class="panel" aria-labelledby="hn-h">
+    <div class="panel-head">
+      <h2 id="hn-h">Hacker News front page, right now</h2>
+      <p>No API here. The page is fetched as HTML and parsed with BeautifulSoup. Bars are points from the most recent run; click one to open the story.</p>
+    </div>
+    <div class="chart tall" id="chart-hn" aria-label="Top stories by points"></div>
+    <details class="table-view">
+      <summary>All thirty stories as a table</summary>
+      <div class="table-scroll"><table id="table-hn"></table></div>
+    </details>
+  </section>
+
+  <section id="gh" class="panel" aria-labelledby="gh-h">
+    <div class="panel-head">
+      <h2 id="gh-h">Six data-tooling repos on GitHub</h2>
+      <p>The GitHub REST API, called with a token the CI runner receives from the platform. Stars gained since tracking began puts every repo on one axis regardless of size.</p>
+    </div>
+    <div class="chart" id="chart-gh-delta" aria-label="Stars gained since first observation by repository"></div>
+    <div class="chart short" id="chart-gh-stars" aria-label="Current stars by repository"></div>
+    <details class="table-view">
+      <summary>Latest snapshot as a table</summary>
+      <div class="table-scroll"><table id="table-gh"></table></div>
+    </details>
+  </section>
+</main>
+
+<footer class="colophon">
+  <p id="colophon-text">Built <span id="built-at">…</span>. Data files this page reads: <a href="data/manifest.json">manifest.json</a>, <a href="data/open_meteo.json">open_meteo.json</a>, <a href="data/hackernews.json">hackernews.json</a>, <a href="data/github.json">github.json</a>, <a href="data/runs.json">runs.json</a>.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/4.1.1/plotly.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

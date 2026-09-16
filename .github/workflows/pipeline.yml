@@ -1,0 +1,71 @@
+# The production pipeline: scrape → commit data → build site → deploy to Pages.
+#
+# Runs on a schedule (every six hours), on demand (the "Run workflow" button),
+# and on every push to main (so a code change is live within minutes).
+# See docs/concepts.md for what each piece is and why it exists.
+name: pipeline
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # minute 17 of 00:00, 06:00, 12:00, 18:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# Never let two runs interleave: both would try to commit to main.
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit the scraped data back to the repo
+  pages: write      # publish the site
+  id-token: write   # deploy-pages proves its identity to Pages with OIDC
+
+jobs:
+  scrape-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: prefix-dev/setup-pixi@v0.10.2
+        with:
+          cache: true          # cache .pixi/ keyed on pixi.lock → ~10 s installs
+
+      - name: Scrape every source
+        env:
+          # Automatically minted per run, scoped to this repo, expires when the
+          # job ends. The GitHub source reads it from the environment.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pixi run scrape
+
+      - name: Commit new data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "nothing new to commit"
+          else
+            git commit -m "data: scrape $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Build the dashboard feeds
+        run: pixi run build
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: scrape-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

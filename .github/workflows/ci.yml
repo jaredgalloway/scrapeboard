@@ -1,0 +1,18 @@
+# Quality gate for code changes: lint + offline tests. No network, no secrets.
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]   # the pipeline's data commits don't need CI
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: prefix-dev/setup-pixi@v0.10.2
+        with:
+          cache: true
+      - run: pixi run check

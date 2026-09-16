@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scrapeboard"
+version = "0.1.0"
+description = "Hello-world scrape → transform → publish pipeline with a static dashboard."
+readme = "README.md"
+requires-python = ">=3.12"
+# Runtime deps are declared in pixi.toml (conda-forge). This list exists so the
+# package is also pip-installable in principle; keep the two in sync.
+dependencies = ["requests", "beautifulsoup4", "lxml", "pandas", "typer", "pyyaml"]
+
+[project.scripts]
+scrapeboard = "scrapeboard.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scrapeboard"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
