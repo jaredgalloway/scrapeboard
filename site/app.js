@@ -117,14 +117,21 @@ function lineTraces(groups, yKey, hover) {
       hovertemplate: hover,
     });
   }
-  traces.push({
-    type: "scatter", mode: "text", showlegend: false, hoverinfo: "skip",
-    x: [...groups].map(([, pts]) => pts[pts.length - 1].t),
-    y: [...groups].map(([, pts]) => pts[pts.length - 1][yKey]),
-    text: [...groups].map(([name]) => name),
-    textposition: "middle right", textfont: { color: cssVar("--ink-2"), size: 12 },
-    cliponaxis: false,
-  });
+  // Direct labels at the line ends, but only when they won't pile up: if two
+  // endpoints sit within 5% of the y-range of each other, the legend alone
+  // carries identity for this render.
+  const ends = [...groups].map(([name, pts]) => ({ name, pt: pts[pts.length - 1] }));
+  const ys = ends.map((e) => e.pt[yKey]).sort((a, b) => a - b);
+  const span = ys[ys.length - 1] - ys[0];
+  const collide = ys.some((y, i) => i > 0 && y - ys[i - 1] < span * 0.05) || (span === 0 && ys.length > 1);
+  if (!collide) {
+    traces.push({
+      type: "scatter", mode: "text", showlegend: false, hoverinfo: "skip",
+      x: ends.map((e) => e.pt.t), y: ends.map((e) => e.pt[yKey]), text: ends.map((e) => e.name),
+      textposition: "middle right", textfont: { color: cssVar("--ink-2"), size: 12 },
+      cliponaxis: false,
+    });
+  }
   return traces;
 }
 
