@@ -179,3 +179,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-17T06:45:38+00:00,49735930,1,Keys Not Included: recovering the signing keys for US driver's license barcodes,https://ryan.science/blog/keys-not-included,ryan.science,117,Ryan5453,41
 2026-09-17T06:45:38+00:00,49735979,23,"Jev Ultrafast: A browser agent with a dynamic, indexed action space",https://github.com/browser-use/jev-ultrafast,github.com,21,rahimnathwani,1
 2026-09-17T06:45:38+00:00,49736466,29,Cloudflare/Security-Audit-Skill,https://github.com/cloudflare/security-audit-skill,github.com,12,donk8r,1
+2026-09-17T12:39:58+00:00,49674451,30,Reversing Factorio's RNG,https://gegell.github.io/posts/factorio-rng/,gegell.github.io,223,jheitmann,41
+2026-09-17T12:39:58+00:00,49677916,29,Japan's book scene is moving from bookstores to libraries,https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving,untranslatedjp.substack.com,212,herbertl,86
+2026-09-17T12:39:58+00:00,49685835,7,The Relation Between Mathematics and Physics by Paul Dirac,https://www.damtp.cam.ac.uk/events/strings02/dirac/speach.html,damtp.cam.ac.uk,89,rramadass,26
+2026-09-17T12:39:58+00:00,49694444,20,An Archive of Colour Gradients,https://phillips.shef.ac.uk/pub/cpt-city/,phillips.shef.ac.uk,14,ashitlerferad,2
+2026-09-17T12:39:58+00:00,49695689,23,PCB is brought to you by Fable 5,https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/,a6mzero.com,129,jasonpeacock,59
+2026-09-17T12:39:58+00:00,49700153,16,Developing provably correct Rust code with Verus,https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus,amazon.science,129,Betelbuddy,24
+2026-09-17T12:39:58+00:00,49711424,28,Performance Improvements in .NET 11,https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/,devblogs.microsoft.com,309,soheilpro,82
+2026-09-17T12:39:58+00:00,49711544,19,Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations,https://github.com/arnegiacomo/fugleramme,github.com,2195,arnemunthekaas,245
+2026-09-17T12:39:58+00:00,49713347,10,Online Z3 Guide,https://microsoft.github.io/z3guide/,microsoft.github.io,25,Bluestein,6
+2026-09-17T12:39:58+00:00,49715318,15,Comparison of Malloc() Algorithms,https://egbert.net/blog/articles/comparison-of-arena-architecture-in-malloc.html,egbert.net,87,egberts1,21
+2026-09-17T12:39:58+00:00,49718773,5,My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it,https://jakeasmith.com/blog/http-build-url/,jakeasmith.com,170,jakeasmith,42
+2026-09-17T12:39:58+00:00,49719249,26,AWS says it can't restore some data from mideast facilities struck by Iran,https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d,wsj.com,448,berkeleyjunk,376
+2026-09-17T12:39:58+00:00,49719596,24,The engineering behind the US Strategic Petroleum Reserve,https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve,johnjwang.com,224,johnjwang,90
+2026-09-17T12:39:58+00:00,49719751,13,Lucasart's Afterlife,https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/,togameforlife.wordpress.com,44,Bondi_Blue,18
+2026-09-17T12:39:58+00:00,49721291,22,A 32-year-old bug walks into a Telnet server,https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/,labs.watchtowr.com,70,paimapi,30
+2026-09-17T12:39:58+00:00,49724881,3,Nvidia announces native GPU programming in Rust,https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/,developer.nvidia.com,761,nonmaskable,307
+2026-09-17T12:39:58+00:00,49729000,14,Small programming tricks,https://will-keleher.com/posts/small-programming-tricks-matter/,will-keleher.com,566,signa11,251
+2026-09-17T12:39:58+00:00,49731285,8,Training a 4B model to produce 81% faster query plans than Postgres,https://rohanbansal.com/qorl,rohanbansal.com,585,polyphilz,121
+2026-09-17T12:39:58+00:00,49732270,11,Xiaomi Mimo 2.6 live post-training dashboard,https://mimo.xiaomi.com/rl/,mimo.xiaomi.com,467,krackers,134
+2026-09-17T12:39:58+00:00,49732513,21,Backups Aren't Simple,https://filipovski.net/2026/09/16/backups-arent-simple.html,filipovski.net,268,afilipovski,169
+2026-09-17T12:39:58+00:00,49732931,17,Breaking the 1.58-bit Barrier for Ternary LLMs,https://arxiv.org/abs/2609.16338,arxiv.org,216,matt_d,34
+2026-09-17T12:39:58+00:00,49733726,25,HarnessTax: How Much Does the Harness Matter for Coding Agents?,https://harnesstax.github.io/,harnesstax.github.io,150,matt_d,59
+2026-09-17T12:39:58+00:00,49734264,27,OpenSpec – A lightweight and configurable AI spec framework,https://openspec.dev/,openspec.dev,158,etoxin,72
+2026-09-17T12:39:58+00:00,49735930,6,Keys Not Included: recovering the signing keys for US driver's license barcodes,https://ryan.science/blog/keys-not-included,ryan.science,208,Ryan5453,74
+2026-09-17T12:39:58+00:00,49736466,18,Cloudflare/Security-Audit-Skill,https://github.com/cloudflare/security-audit-skill,github.com,97,donk8r,17
+2026-09-17T12:39:58+00:00,49737787,12,CCC invites all model citizens to 40C3,https://events.ccc.de/en/2026/09/12/40c3-model-citizens/,events.ccc.de,28,antonly,0
+2026-09-17T12:39:58+00:00,49737849,1,One Year of Sponsored Servo Development,https://servo.org/blog/2026/09/15/one-year-of-sponsorship/,servo.org,163,AshleysBrain,69
+2026-09-17T12:39:58+00:00,49737922,9,GLM Built Its Own Inference Infrastructure,https://z.ai/blog/glm-built-its-inference-infrastructure,z.ai,130,whiteros_e,96
+2026-09-17T12:39:58+00:00,49738766,4,Better Vector Search for Long Documents: Chunking Inside Manticore Search,https://manticoresearch.com/blog/auto-chunking/,manticoresearch.com,27,GloriaVinogrado,1
+2026-09-17T12:39:58+00:00,49738879,2,Neovim have a ~$800k Bitcoin donation sitting untouched since 2023,https://news.ycombinator.com/item?id=49738879,news.ycombinator.com,151,jakemanger,42
