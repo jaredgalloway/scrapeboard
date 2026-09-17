@@ -209,3 +209,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-17T12:39:58+00:00,49737922,9,GLM Built Its Own Inference Infrastructure,https://z.ai/blog/glm-built-its-inference-infrastructure,z.ai,130,whiteros_e,96
 2026-09-17T12:39:58+00:00,49738766,4,Better Vector Search for Long Documents: Chunking Inside Manticore Search,https://manticoresearch.com/blog/auto-chunking/,manticoresearch.com,27,GloriaVinogrado,1
 2026-09-17T12:39:58+00:00,49738879,2,Neovim have a ~$800k Bitcoin donation sitting untouched since 2023,https://news.ycombinator.com/item?id=49738879,news.ycombinator.com,151,jakemanger,42
+2026-09-17T18:34:32+00:00,49704503,22,Running Ubuntu on the Lenovo IdeaPad Duet,https://vhaudiquet.fr/blog/duet-ubuntu/,vhaudiquet.fr,12,vhaudiquet,1
+2026-09-17T18:34:32+00:00,49707643,27,Mastering Layout Engines in Graphviz: Dot vs. Neato vs. Twopi vs. Circo,https://guides.visual-paradigm.com/mastering-graphviz-layout-engines-dot-neato-twopi-circo/,guides.visual-paradigm.com,25,vismit2000,6
+2026-09-17T18:34:32+00:00,49714196,15,Grand MS-DOS Gaming General MIDI Showdown,https://blog.johnnovak.net/2023/03/05/grand-ms-dos-gaming-general-midi-showdown/,blog.johnnovak.net,45,ibobev,3
+2026-09-17T18:34:32+00:00,49715813,2,Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA,https://global.fujitsu/en-global/pr/news/2026/09/14-02,global.fujitsu,372,my123,145
+2026-09-17T18:34:32+00:00,49718773,25,My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it,https://jakeasmith.com/blog/http-build-url/,jakeasmith.com,290,jakeasmith,83
+2026-09-17T18:34:32+00:00,49734929,21,The Return of Sail Power: Cargo Ships Are Turning Back to the Wind,https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/,gcaptain.com,132,gumby,98
+2026-09-17T18:34:32+00:00,49737787,19,CCC invites all model citizens to 40C3,https://events.ccc.de/en/2026/09/12/40c3-model-citizens/,events.ccc.de,256,antonly,111
+2026-09-17T18:34:32+00:00,49737849,13,One year of sponsored Servo development,https://servo.org/blog/2026/09/15/one-year-of-sponsorship/,servo.org,303,AshleysBrain,125
+2026-09-17T18:34:32+00:00,49737922,10,How GLM built its own inference infrastructure,https://z.ai/blog/glm-built-its-inference-infrastructure,z.ai,276,whiteros_e,225
+2026-09-17T18:34:32+00:00,49738091,11,Why I didn’t sign the Fields medallists’ letter,https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/,gowers.wordpress.com,99,simianwords,144
+2026-09-17T18:34:32+00:00,49740047,30,Show HN: I built a new version of my fun spatial 3D online meeting app,https://flat.social,flat.social,83,pawelwentpawel,50
+2026-09-17T18:34:32+00:00,49740105,20,"Show HN: Share your AI Setup, Learn from others",https://mysetup.ai/,mysetup.ai,100,steveybrown,64
+2026-09-17T18:34:32+00:00,49740260,18,The American Religion of Self-Storage Facilities,https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities,newyorker.com,94,pseudolus,152
+2026-09-17T18:34:32+00:00,49742021,26,Artificial intelligence now beats some of the best human forecasters,https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters,economist.com,86,ddp26,70
+2026-09-17T18:34:32+00:00,49742353,4,Rate limits on GitLab.com are changing,https://about.gitlab.com/blog/rate-limit-change-2026/,about.gitlab.com,90,darkwater,79
+2026-09-17T18:34:32+00:00,49742355,3,CrowdSec Source Code Leak,https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure,crowdsec.net,58,eccgecko,22
+2026-09-17T18:34:32+00:00,49742437,24,LLM Classification Is Feature Engineering,https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/,minimallysufficient.com,53,minsufficient,11
+2026-09-17T18:34:32+00:00,49742439,17,Vinix – A modern operating system written in V,https://vinix-os.org/,vinix-os.org,61,hggh,35
+2026-09-17T18:34:32+00:00,49742714,6,Whoisinspace.com/,https://whoisinspace.com,whoisinspace.com,97,Egg-Man,46
+2026-09-17T18:34:32+00:00,49742976,16,Ask HN: How to recover Google auth after phone stolen?,https://news.ycombinator.com/item?id=49742976,news.ycombinator.com,57,keymasta,47
+2026-09-17T18:34:32+00:00,49743049,14,Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents,https://news.ycombinator.com/item?id=49743049,news.ycombinator.com,16,cat-whisperer,15
+2026-09-17T18:34:32+00:00,49743097,1,Hister: A private search engine for the pages you visit and the files you keep,https://github.com/asciimoo/hister,github.com,110,bookofjoe,33
+2026-09-17T18:34:32+00:00,49743382,12,"Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",https://www.aclif.ai/,aclif.ai,17,chris_marino,11
+2026-09-17T18:34:32+00:00,49743459,23,"Show HN: Craigslist for agent skills, curated by a human",https://skillbay.sh/,skillbay.sh,4,skeptrune,0
+2026-09-17T18:34:32+00:00,49743483,8,Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data,https://arxiv.org/abs/2609.18842,arxiv.org,20,Betelbuddy,4
+2026-09-17T18:34:32+00:00,49743527,7,Towards Self-Driving Codebases,https://blog.detail.dev/posts/towards-self-driving-codebases/,blog.detail.dev,18,wilhelmklopp,6
+2026-09-17T18:34:32+00:00,49743567,9,Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI,https://zscc.ai/careers?job_id=109821,zscc.ai,0,,0
+2026-09-17T18:34:32+00:00,49743685,29,Economic policy for AGI,https://institute.deepmind.com/essays/economic-policy-for-agi/,institute.deepmind.com,19,alphabetatango,9
+2026-09-17T18:34:32+00:00,49743691,5,T. Rex Had a Body Temperature of 97 Degrees,https://www.nytimes.com/2026/09/16/science/trex-dinosaur-temperature-warm-blooded.html,nytimes.com,8,marojejian,1
+2026-09-17T18:34:32+00:00,49743756,28,"Stallman: Thousands Dead, Millions Deprived of Liberties (2001)",https://news.slashdot.org/story/01/09/17/1758231/stallman-thousands-dead-millions-deprived-of-liberties,news.slashdot.org,37,B1FF_PSUVM,3
