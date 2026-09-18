@@ -299,3 +299,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-18T06:44:04+00:00,49749981,5,Waymo in Singapore,https://waymo.com/waymo-in-singapore/,waymo.com,85,ramanan,64
 2026-09-18T06:44:04+00:00,49750094,6,The scourge of x86 emulation,https://fex-emu.com/Scourge-of-emulation/,fex-emu.com,36,dagmx,1
 2026-09-18T06:44:04+00:00,49750152,3,Jemalloc 5.4.0,https://github.com/jemalloc/jemalloc/releases/tag/5.4.0,github.com,29,gkfasdfasdf,5
+2026-09-18T12:38:24+00:00,49710447,28,"Diplodocus, Long Thought Exclusively American, Turns Up in Spain",https://www.sci.news/paleontology/spanish-diplodocus-15064.html,sci.news,77,embedding-shape,46
+2026-09-18T12:38:24+00:00,49713088,22,Dr Julius Neubronner's Miniature Pigeon Camera,https://publicdomainreview.org/collection/dr-julius-neubronner-s-miniature-pigeon-camera/,publicdomainreview.org,16,vitonsky,0
+2026-09-18T12:38:24+00:00,49714596,29,Speeding up gearhash on ARM64,https://sam.dev/blog/gearhash-on-arm64,sam.dev,24,pranitha_m,0
+2026-09-18T12:38:24+00:00,49715408,9,Subnormal floating-point numbers are expensive on Intel processors,https://lemire.me/blog/2026/09/15/subnormal-floating-point-numbers-are-expensive-on-intel-processors/,lemire.me,17,zdw,3
+2026-09-18T12:38:24+00:00,49715813,19,Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA,https://global.fujitsu/en-global/pr/news/2026/09/14-02,global.fujitsu,610,my123,236
+2026-09-18T12:38:24+00:00,49726007,17,Wax motor,https://en.wikipedia.org/wiki/Wax_motor,en.wikipedia.org,445,mhb,77
+2026-09-18T12:38:24+00:00,49726614,18,When the fractional part of a float fixes your shader,https://crocidb.com/post/when-the-fractional-part-of-a-float-fixes-your-shader/,crocidb.com,55,vinhnx,8
+2026-09-18T12:38:24+00:00,49727245,12,Replacing Pull Requests with Delta,https://zed.dev/blog/delta-public-beta,zed.dev,55,vquemener,19
+2026-09-18T12:38:24+00:00,49743097,16,Hister: A private search engine for the pages you visit and the files you keep,https://github.com/asciimoo/hister,github.com,643,bookofjoe,173
+2026-09-18T12:38:24+00:00,49745940,10,Astra for Law,https://openai.com/index/astra-for-law/,openai.com,519,vertigoruntime,611
+2026-09-18T12:38:24+00:00,49746163,14,"Bend – A language that blocks AI mistakes via proof, on CPU and GPU",https://bend-lang.com/,bend-lang.com,509,nicolas-siplis,243
+2026-09-18T12:38:24+00:00,49746290,26,Flet 1.0 – Build cross-platform apps in Python,https://flet.dev/,flet.dev,136,absqueued,69
+2026-09-18T12:38:24+00:00,49746407,30,The most important product decision is what you don't build,https://liamnugent.me/posts/what-you-dont-build/,liamnugent.me,124,ChrisArchitect,42
+2026-09-18T12:38:24+00:00,49746618,11,Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint,https://prismml.com/news/bonsai-2-27b,prismml.com,482,JonSchneider,148
+2026-09-18T12:38:24+00:00,49747070,21,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,207,joeriddles,135
+2026-09-18T12:38:24+00:00,49747925,15,Qwen 3.8 Omni Flash,https://qwen.ai/blog?id=qwen3.8-omni-flash,qwen.ai,259,jjcm,91
+2026-09-18T12:38:24+00:00,49748957,27,Telstra outage: The night a network decided the year was 2006,https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006,netnod.se,69,TMWNN,29
+2026-09-18T12:38:24+00:00,49749171,25,Ask A Monk – A digital wilderness for thoughts with no immediate answer,https://askamonk.online,askamonk.online,50,13613288957,27
+2026-09-18T12:38:24+00:00,49749393,24,Shapelearn Qwen 3.8 27B (13.1 GB VRAM),https://byteshape.com/blogs/Qwen3.8-27B/,byteshape.com,81,syntaxing,17
+2026-09-18T12:38:24+00:00,49749656,23,A heap overflow and SSO misconfiguration to compromise OpenAI internal repos,https://www.hacktron.ai/blog/hacking-openai,hacktron.ai,376,Handy-Man,163
+2026-09-18T12:38:24+00:00,49749771,20,Pre-Greek: The lost language hidden within Ancient Greek,https://linguisticdiscovery.com/posts/pre-greek/,linguisticdiscovery.com,99,axiologist,49
+2026-09-18T12:38:24+00:00,49750094,8,The scourge of x86 emulation,https://fex-emu.com/Scourge-of-emulation/,fex-emu.com,184,dagmx,38
+2026-09-18T12:38:24+00:00,49750152,5,Jemalloc 5.4.0,https://github.com/jemalloc/jemalloc/releases/tag/5.4.0,github.com,201,gkfasdfasdf,56
+2026-09-18T12:38:24+00:00,49752041,3,OpenJev,https://openjev.com/,openjev.com,205,ilreb,117
+2026-09-18T12:38:24+00:00,49752056,6,Microsoft exec called AI scraping 'the largest theft of labor in human history',https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/,techcrunch.com,314,pluc,252
+2026-09-18T12:38:24+00:00,49752422,4,"ZCode, the GLM coding agent, silently uploads your Git history",https://tokenstead.ai/guides/zcode-silent-git-history-upload,tokenstead.ai,101,cdnsteve,17
+2026-09-18T12:38:24+00:00,49752614,13,"Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html,nytimes.com,50,saimiam,23
+2026-09-18T12:38:24+00:00,49753131,7,Cekura (YC F24) Is Hiring,https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us,ycombinator.com,0,,0
+2026-09-18T12:38:24+00:00,49753179,1,Bend 2 and the Vibe-Coding Trap,https://blog.liampwll.com/posts/bend_vibe_coding/,blog.liampwll.com,55,LiamPowell,18
+2026-09-18T12:38:24+00:00,49753211,2,I don't like passkeys,https://hawksley.dev/blog/i-dont-like-passkeys,hawksley.dev,39,ethanhawksley,11
