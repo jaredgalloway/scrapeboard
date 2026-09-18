@@ -239,3 +239,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-17T18:34:32+00:00,49743685,29,Economic policy for AGI,https://institute.deepmind.com/essays/economic-policy-for-agi/,institute.deepmind.com,19,alphabetatango,9
 2026-09-17T18:34:32+00:00,49743691,5,T. Rex Had a Body Temperature of 97 Degrees,https://www.nytimes.com/2026/09/16/science/trex-dinosaur-temperature-warm-blooded.html,nytimes.com,8,marojejian,1
 2026-09-17T18:34:32+00:00,49743756,28,"Stallman: Thousands Dead, Millions Deprived of Liberties (2001)",https://news.slashdot.org/story/01/09/17/1758231/stallman-thousands-dead-millions-deprived-of-liberties,news.slashdot.org,37,B1FF_PSUVM,3
+2026-09-18T01:01:55+00:00,49671157,29,André Weil and the Hodge Conjecture,https://jiahao116.github.io/Articles/,jiahao116.github.io,29,caojiahao,10
+2026-09-18T01:01:55+00:00,49704503,25,Running Ubuntu on the Lenovo IdeaPad Duet,https://vhaudiquet.fr/blog/duet-ubuntu/,vhaudiquet.fr,62,vhaudiquet,23
+2026-09-18T01:01:55+00:00,49710447,9,"Diplodocus, Long Thought Exclusively American, Turns Up in Spain",https://www.sci.news/paleontology/spanish-diplodocus-15064.html,sci.news,25,embedding-shape,16
+2026-09-18T01:01:55+00:00,49714096,18,TSMC revealing details about next gen A14 node,https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331,iedm26.mapyourshow.com,86,osnium123,32
+2026-09-18T01:01:55+00:00,49715813,6,Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA,https://global.fujitsu/en-global/pr/news/2026/09/14-02,global.fujitsu,501,my123,191
+2026-09-18T01:01:55+00:00,49715936,15,How do we prevent mathemathics from devolving into the Medieval Era of secrecy?,https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy,mathoverflow.net,71,jjgreen,46
+2026-09-18T01:01:55+00:00,49718773,30,My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it,https://jakeasmith.com/blog/http-build-url/,jakeasmith.com,326,jakeasmith,96
+2026-09-18T01:01:55+00:00,49720854,14,Landing the Space Shuttle – A Flying Machine and the Thrill of a Lifetime,https://inspire.eaa.org/2019/05/16/landing-the-space-shuttle-an-incredible-flying-machine-and-the-thrill-of-a-lifetime/,inspire.eaa.org,14,JojoFatsani,3
+2026-09-18T01:01:55+00:00,49726007,5,Wax motor,https://en.wikipedia.org/wiki/Wax_motor,en.wikipedia.org,223,mhb,43
+2026-09-18T01:01:55+00:00,49737787,20,CCC invites all model citizens to 40C3,https://events.ccc.de/en/2026/09/12/40c3-model-citizens/,events.ccc.de,329,antonly,178
+2026-09-18T01:01:55+00:00,49737922,13,How GLM built its own inference infrastructure,https://z.ai/blog/glm-built-its-inference-infrastructure,z.ai,374,whiteros_e,262
+2026-09-18T01:01:55+00:00,49738091,16,Why I didn’t sign the Fields medallists’ letter,https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/,gowers.wordpress.com,198,simianwords,288
+2026-09-18T01:01:55+00:00,49740105,26,"Show HN: Share your AI Setup, Learn from others",https://mysetup.ai/,mysetup.ai,177,steveybrown,90
+2026-09-18T01:01:55+00:00,49740260,19,The American Religion of Self-Storage Facilities,https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities,newyorker.com,186,pseudolus,325
+2026-09-18T01:01:55+00:00,49742353,11,Rate limits on GitLab.com are changing,https://about.gitlab.com/blog/rate-limit-change-2026/,about.gitlab.com,149,darkwater,106
+2026-09-18T01:01:55+00:00,49742355,10,CrowdSec Source Code Leak,https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure,crowdsec.net,127,eccgecko,35
+2026-09-18T01:01:55+00:00,49743049,27,Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents,https://news.ycombinator.com/item?id=49743049,news.ycombinator.com,45,cat-whisperer,46
+2026-09-18T01:01:55+00:00,49743097,4,Hister: A private search engine for the pages you visit and the files you keep,https://github.com/asciimoo/hister,github.com,438,bookofjoe,131
+2026-09-18T01:01:55+00:00,49743483,12,Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data,https://arxiv.org/abs/2609.18842,arxiv.org,105,Betelbuddy,30
+2026-09-18T01:01:55+00:00,49743567,22,Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI,https://zscc.ai/careers?job_id=109821,zscc.ai,0,,0
+2026-09-18T01:01:55+00:00,49745809,24,Plugin4Shell – Zero Click RCE Vulnerability found in top four coding agents,https://www.air.security/blog-posts/plugin4shell,air.security,6,fishthethis,2
+2026-09-18T01:01:55+00:00,49745940,1,Astra for Law,https://openai.com/index/astra-for-law/,openai.com,279,vertigoruntime,311
+2026-09-18T01:01:55+00:00,49746117,7,More than 100k people in Japan are now aged 100 or older,https://www.bbc.com/news/articles/cmzezj5e18xxo,bbc.com,89,karakoram,68
+2026-09-18T01:01:55+00:00,49746163,3,"Bend – A language that blocks AI mistakes via proof, on CPU and GPU",https://bend-lang.com/,bend-lang.com,254,nicolas-siplis,133
+2026-09-18T01:01:55+00:00,49746290,8,Flet 1.0 – Build cross-platform apps in Python,https://flet.dev/,flet.dev,48,absqueued,19
+2026-09-18T01:01:55+00:00,49746346,28,"Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",https://snapdrop.me,snapdrop.me,15,Capira,15
+2026-09-18T01:01:55+00:00,49746407,21,The most important product decision is what you don't build,https://liamnugent.me/posts/what-you-dont-build/,liamnugent.me,33,ChrisArchitect,15
+2026-09-18T01:01:55+00:00,49746618,2,Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint,https://prismml.com/news/bonsai-2-27b,prismml.com,184,JonSchneider,61
+2026-09-18T01:01:55+00:00,49746628,17,How Uber Protects Against Retry Storms,https://www.uber.com/us/en/blog/protecting-against-retry-storms/,uber.com,29,iscmt,19
+2026-09-18T01:01:55+00:00,49746654,23,"Sex, AI, and the Apocalypse",https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/,iankduncan.com,148,Anon84,126
