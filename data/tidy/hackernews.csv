@@ -269,3 +269,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-18T01:01:55+00:00,49746618,2,Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint,https://prismml.com/news/bonsai-2-27b,prismml.com,184,JonSchneider,61
 2026-09-18T01:01:55+00:00,49746628,17,How Uber Protects Against Retry Storms,https://www.uber.com/us/en/blog/protecting-against-retry-storms/,uber.com,29,iscmt,19
 2026-09-18T01:01:55+00:00,49746654,23,"Sex, AI, and the Apocalypse",https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/,iankduncan.com,148,Anon84,126
+2026-09-18T06:44:04+00:00,49710447,20,"Diplodocus, Long Thought Exclusively American, Turns Up in Spain",https://www.sci.news/paleontology/spanish-diplodocus-15064.html,sci.news,55,embedding-shape,32
+2026-09-18T06:44:04+00:00,49715813,12,Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA,https://global.fujitsu/en-global/pr/news/2026/09/14-02,global.fujitsu,562,my123,211
+2026-09-18T06:44:04+00:00,49715936,28,How do we prevent mathemathics from devolving into the Medieval Era of secrecy?,https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy,mathoverflow.net,102,jjgreen,85
+2026-09-18T06:44:04+00:00,49721122,22,Khipu (Quipu) Field Guide,https://www.khipufieldguide.com/,khipufieldguide.com,9,SanjayMehta,1
+2026-09-18T06:44:04+00:00,49725404,13,Apple detectives solved mystery of ancient tree and rewrote the history of fruit,https://www.scientificamerican.com/article/how-apple-detectives-solved-the-mystery-of-an-ancient-tree-and-rewrote-the-history-of-fruit/,scientificamerican.com,30,nkurz,3
+2026-09-18T06:44:04+00:00,49726007,11,Wax motor,https://en.wikipedia.org/wiki/Wax_motor,en.wikipedia.org,330,mhb,62
+2026-09-18T06:44:04+00:00,49738091,25,Why I didn’t sign the Fields medallists’ letter,https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/,gowers.wordpress.com,238,simianwords,339
+2026-09-18T06:44:04+00:00,49742355,26,CrowdSec Source Code Leak,https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure,crowdsec.net,144,eccgecko,43
+2026-09-18T06:44:04+00:00,49743097,9,Hister: A private search engine for the pages you visit and the files you keep,https://github.com/asciimoo/hister,github.com,555,bookofjoe,147
+2026-09-18T06:44:04+00:00,49743483,30,Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data,https://arxiv.org/abs/2609.18842,arxiv.org,134,Betelbuddy,38
+2026-09-18T06:44:04+00:00,49745940,2,Astra for Law,https://openai.com/index/astra-for-law/,openai.com,435,vertigoruntime,460
+2026-09-18T06:44:04+00:00,49746163,7,"Bend – A language that blocks AI mistakes via proof, on CPU and GPU",https://bend-lang.com/,bend-lang.com,406,nicolas-siplis,197
+2026-09-18T06:44:04+00:00,49746290,18,Flet 1.0 – Build cross-platform apps in Python,https://flet.dev/,flet.dev,94,absqueued,44
+2026-09-18T06:44:04+00:00,49746346,29,"Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",https://snapdrop.me,snapdrop.me,62,Capira,30
+2026-09-18T06:44:04+00:00,49746407,21,The most important product decision is what you don't build,https://liamnugent.me/posts/what-you-dont-build/,liamnugent.me,85,ChrisArchitect,27
+2026-09-18T06:44:04+00:00,49746618,4,Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint,https://prismml.com/news/bonsai-2-27b,prismml.com,365,JonSchneider,114
+2026-09-18T06:44:04+00:00,49746628,24,How Uber Protects Against Retry Storms,https://www.uber.com/us/en/blog/protecting-against-retry-storms/,uber.com,82,iscmt,33
+2026-09-18T06:44:04+00:00,49746654,17,"Sex, AI, and the Apocalypse",https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/,iankduncan.com,186,Anon84,191
+2026-09-18T06:44:04+00:00,49747070,16,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,103,joeriddles,71
+2026-09-18T06:44:04+00:00,49747925,10,Qwen 3.8 Omni Flash,https://qwen.ai/blog?id=qwen3.8-omni-flash,qwen.ai,146,jjcm,41
+2026-09-18T06:44:04+00:00,49748957,15,Telstra outage: The night a network decided the year was 2006,https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006,netnod.se,42,TMWNN,14
+2026-09-18T06:44:04+00:00,49749171,19,Ask A Monk – A digital wilderness for thoughts with no immediate answer,https://askamonk.online,askamonk.online,28,13613288957,16
+2026-09-18T06:44:04+00:00,49749369,27,Minimal Phone 2,https://minimalcompany.com/,minimalcompany.com,27,nashashmi,11
+2026-09-18T06:44:04+00:00,49749393,14,Shapelearn Qwen 3.8 27B (13.1 GB VRAM),https://byteshape.com/blogs/Qwen3.8-27B/,byteshape.com,36,syntaxing,4
+2026-09-18T06:44:04+00:00,49749656,1,Hacking OpenAI,https://www.hacktron.ai/blog/hacking-openai,hacktron.ai,237,Handy-Man,73
+2026-09-18T06:44:04+00:00,49749744,23,Code Scans,https://devin.ai/blog/introducing-code-scans,devin.ai,15,geoffbp,4
+2026-09-18T06:44:04+00:00,49749771,8,Pre-Greek: The lost language hidden within Ancient Greek,https://linguisticdiscovery.com/posts/pre-greek/,linguisticdiscovery.com,44,axiologist,12
+2026-09-18T06:44:04+00:00,49749981,5,Waymo in Singapore,https://waymo.com/waymo-in-singapore/,waymo.com,85,ramanan,64
+2026-09-18T06:44:04+00:00,49750094,6,The scourge of x86 emulation,https://fex-emu.com/Scourge-of-emulation/,fex-emu.com,36,dagmx,1
+2026-09-18T06:44:04+00:00,49750152,3,Jemalloc 5.4.0,https://github.com/jemalloc/jemalloc/releases/tag/5.4.0,github.com,29,gkfasdfasdf,5
