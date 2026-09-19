@@ -389,3 +389,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-19T01:00:23+00:00,49758736,1,Android 17 is the first since 3.x to add new APIs without releasing to the AOSP,https://grapheneos.social/@GrapheneOS/117282080803799576,grapheneos.social,490,theanonymousone,228
 2026-09-19T01:00:23+00:00,49760187,11,Claude Code now reads AGENTS.md if there is no Claude.md,https://code.claude.com/docs/en/changelog,code.claude.com,489,datadrivenangel,180
 2026-09-19T01:00:23+00:00,49761432,2,How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip,https://spectrum.ieee.org/llms-for-chip-design,spectrum.ieee.org,41,maxall4,39
+2026-09-19T06:40:22+00:00,49726773,14,Goroutine Leak Profiles,https://go.dev/blog/goroutine-leak-profiles,go.dev,20,torutofu,2
+2026-09-19T06:40:22+00:00,49730069,13,You can run Git on object storage if you re-make packfiles,https://www.tigrisdata.com/blog/objgit-packfiles/,tigrisdata.com,16,evacchi,4
+2026-09-19T06:40:22+00:00,49731413,24,Cyclomatic Complexity in C#,https://blog.ndepend.com/understanding-cyclomatic-complexity/,blog.ndepend.com,52,gone35,17
+2026-09-19T06:40:22+00:00,49733523,29,LispBM is a concurrent Lisp for microcontrollers with message passing,https://www.lispbm.com/,lispbm.com,24,so-cal-schemer,3
+2026-09-19T06:40:22+00:00,49733647,4,Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step,https://github.com/awlevin/typesafe-computer-use,github.com,50,rahimnathwani,12
+2026-09-19T06:40:22+00:00,49734131,9,Why building a Rust LSP is hard,https://rust-glancer.github.io/blog/why-lsp-is-hard/,rust-glancer.github.io,42,agluszak,20
+2026-09-19T06:40:22+00:00,49735541,15,Ctenophores: Wonders of Biology,https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/,quantamagazine.org,5,randomImmigrant,4
+2026-09-19T06:40:22+00:00,49744036,20,The Farnese letter,https://simonklee.dk/farnese-letter,simonklee.dk,40,grigolin,6
+2026-09-19T06:40:22+00:00,49744704,16,The first new cat species discovered in 100 years,https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years,nationalgeographic.com,246,ohjeez,90
+2026-09-19T06:40:22+00:00,49746626,28,How SpaceX streamlined the Raptor engine,https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor,construction-physics.com,197,JumpCrisscross,69
+2026-09-19T06:40:22+00:00,49747070,12,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,463,joeriddles,312
+2026-09-19T06:40:22+00:00,49748553,17,Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash,https://cactuscompute.com/needle,cactuscompute.com,192,HenryNdubuaku,85
+2026-09-19T06:40:22+00:00,49749369,23,Minimal Phone 2,https://minimalcompany.com/,minimalcompany.com,240,nashashmi,208
+2026-09-19T06:40:22+00:00,49749724,27,Warez: The Infrastructure and Aesthetics of Piracy (2021),https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157,archive.org,134,succinct_ideas,46
+2026-09-19T06:40:22+00:00,49750694,25,Inside ZCode: Silently uploading your Git history to the cloud,https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/,blog.ferstar.org,289,csmantle,97
+2026-09-19T06:40:22+00:00,49752041,18,OpenJev,https://openjev.com/,openjev.com,598,ilreb,257
+2026-09-19T06:40:22+00:00,49754785,7,Cloudflare Quick Tunnels,https://try.cloudflare.com/,try.cloudflare.com,672,jcbhmr,272
+2026-09-19T06:40:22+00:00,49757050,19,Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug,https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/,donjon.ledger.com,182,synack,65
+2026-09-19T06:40:22+00:00,49758419,22,Xcode 27.1 Beta Release Notes,https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes,developer.apple.com,135,CameronBanga,93
+2026-09-19T06:40:22+00:00,49758580,8,Saving another 100TB of RAM,https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/,blog.cloudflare.com,319,f311a,60
+2026-09-19T06:40:22+00:00,49758615,21,Cache-to-Cache: Direct Semantic Communication Between LLMs (2025),https://arxiv.org/abs/2510.03215,arxiv.org,81,rochansinha,12
+2026-09-19T06:40:22+00:00,49758736,3,Android 17 is the first since 3.x to add new APIs without releasing to the AOSP,https://grapheneos.social/@GrapheneOS/117282080803799576,grapheneos.social,747,theanonymousone,360
+2026-09-19T06:40:22+00:00,49760187,26,Claude Code now reads AGENTS.md if there is no Claude.md,https://code.claude.com/docs/en/changelog,code.claude.com,619,datadrivenangel,219
+2026-09-19T06:40:22+00:00,49761432,10,How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip,https://spectrum.ieee.org/llms-for-chip-design,spectrum.ieee.org,104,maxall4,75
+2026-09-19T06:40:22+00:00,49761840,30,Alibaba open-sources AI model that can detect cancer and nearly 150 conditions,https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions,scmp.com,101,yogthos,11
+2026-09-19T06:40:22+00:00,49762687,6,Science Is Open Software,https://jepedersen.dk/blog/202505_research/,jepedersen.dk,57,jegp,25
+2026-09-19T06:40:22+00:00,49762744,5,SDCC – Small Device C Compiler,https://sdcc.sourceforge.net/,sdcc.sourceforge.net,54,lioeters,14
+2026-09-19T06:40:22+00:00,49763296,2,San Francisco Onion Futures Company,https://onionfutures.com/,onionfutures.com,130,z-mach9,46
+2026-09-19T06:40:22+00:00,49763379,11,NASA-IBM Lunar Foundation open-Source Geospatial AI Model,https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/,newsroom.usra.edu,10,noobplus,1
+2026-09-19T06:40:22+00:00,49763697,1,"Human brain is two separate organs, Stanford Medicine-led research finds",https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html,med.stanford.edu,43,emigre,7
