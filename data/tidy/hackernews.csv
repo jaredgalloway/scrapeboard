@@ -419,3 +419,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-19T06:40:22+00:00,49763296,2,San Francisco Onion Futures Company,https://onionfutures.com/,onionfutures.com,130,z-mach9,46
 2026-09-19T06:40:22+00:00,49763379,11,NASA-IBM Lunar Foundation open-Source Geospatial AI Model,https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/,newsroom.usra.edu,10,noobplus,1
 2026-09-19T06:40:22+00:00,49763697,1,"Human brain is two separate organs, Stanford Medicine-led research finds",https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html,med.stanford.edu,43,emigre,7
+2026-09-19T12:35:10+00:00,49720143,4,“The Secret Life of Circuits” is here,https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here,blog.coredump.cx,90,surprisetalk,29
+2026-09-19T12:35:10+00:00,49726773,25,Goroutine Leak Profiles,https://go.dev/blog/goroutine-leak-profiles,go.dev,42,torutofu,5
+2026-09-19T12:35:10+00:00,49728602,29,Veronese's Dogs,https://publicdomainreview.org/essay/veroneses-dogs,publicdomainreview.org,15,prismatic,1
+2026-09-19T12:35:10+00:00,49730069,14,You can run Git on object storage if you re-make packfiles,https://www.tigrisdata.com/blog/objgit-packfiles/,tigrisdata.com,63,evacchi,19
+2026-09-19T12:35:10+00:00,49734131,17,Why building a Rust LSP is hard,https://rust-glancer.github.io/blog/why-lsp-is-hard/,rust-glancer.github.io,98,agluszak,33
+2026-09-19T12:35:10+00:00,49735541,19,Ctenophores: Wonders of Biology,https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/,quantamagazine.org,35,randomImmigrant,6
+2026-09-19T12:35:10+00:00,49736823,9,Communication by means of modulated Johnson noise,https://www.pnas.org/doi/10.1073/pnas.2201337119,pnas.org,19,austinallegro,3
+2026-09-19T12:35:10+00:00,49743490,18,From Stonemasons to Carpenters,https://thelastsoftwareengineer.substack.com/p/from-stonemasons-to-carpenters,thelastsoftwareengineer.substack.com,12,azhenley,1
+2026-09-19T12:35:10+00:00,49744174,11,Show HN: I wrote a custom assembler for CHIP-8 in C++,https://github.com/Tackx/c8-ass,github.com,5,tack1234,0
+2026-09-19T12:35:10+00:00,49744704,22,The first new cat species discovered in 100 years,https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years,nationalgeographic.com,289,ohjeez,108
+2026-09-19T12:35:10+00:00,49747070,12,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,511,joeriddles,343
+2026-09-19T12:35:10+00:00,49748553,24,Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash,https://cactuscompute.com/needle,cactuscompute.com,202,HenryNdubuaku,89
+2026-09-19T12:35:10+00:00,49749724,28,Warez: The Infrastructure and Aesthetics of Piracy (2021),https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157,archive.org,175,succinct_ideas,84
+2026-09-19T12:35:10+00:00,49750694,30,Inside ZCode: Silently uploading your Git history to the cloud,https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/,blog.ferstar.org,310,csmantle,103
+2026-09-19T12:35:10+00:00,49752041,23,OpenJev,https://openjev.com/,openjev.com,640,ilreb,273
+2026-09-19T12:35:10+00:00,49754785,10,Cloudflare Quick Tunnels,https://try.cloudflare.com/,try.cloudflare.com,735,jcbhmr,290
+2026-09-19T12:35:10+00:00,49757050,26,Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug,https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/,donjon.ledger.com,198,synack,73
+2026-09-19T12:35:10+00:00,49758580,16,Saving another 100TB of RAM,https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/,blog.cloudflare.com,381,f311a,83
+2026-09-19T12:35:10+00:00,49758615,27,Cache-to-Cache: Direct Semantic Communication Between LLMs (2025),https://arxiv.org/abs/2510.03215,arxiv.org,95,rochansinha,14
+2026-09-19T12:35:10+00:00,49758736,7,Android 17 is the first since 3.x to add new APIs without releasing to the AOSP,https://grapheneos.social/@GrapheneOS/117282080803799576,grapheneos.social,882,theanonymousone,462
+2026-09-19T12:35:10+00:00,49761432,21,How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip,https://spectrum.ieee.org/llms-for-chip-design,spectrum.ieee.org,140,maxall4,98
+2026-09-19T12:35:10+00:00,49762687,15,Science Is Open Software,https://jepedersen.dk/blog/202505_research/,jepedersen.dk,108,jegp,40
+2026-09-19T12:35:10+00:00,49762744,13,SDCC – Small Device C Compiler,https://sdcc.sourceforge.net/,sdcc.sourceforge.net,96,lioeters,20
+2026-09-19T12:35:10+00:00,49763296,8,San Francisco Onion Futures Company,https://onionfutures.com/,onionfutures.com,223,z-mach9,78
+2026-09-19T12:35:10+00:00,49763379,20,NASA-IBM Lunar Foundation open-Source Geospatial AI Model,https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/,newsroom.usra.edu,39,noobplus,4
+2026-09-19T12:35:10+00:00,49763697,2,"Human brain is two separate organs, Stanford Medicine-led research finds",https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html,med.stanford.edu,322,emigre,120
+2026-09-19T12:35:10+00:00,49763928,6,"If math is more than proof, we need to better celebrate the rest of it",https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/,terrytao.wordpress.com,154,num42,111
+2026-09-19T12:35:10+00:00,49763987,5,GPT-6 Astra Solves a WWI German Radio Cipher,https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio,prinzai.com,160,nsoonhui,87
+2026-09-19T12:35:10+00:00,49764791,1,AI-generated posters don’t have to be horrible,https://john.hartnup.uk/2026/06/07/ai-event-posters.html,john.hartnup.uk,298,ereiamjh,190
+2026-09-19T12:35:10+00:00,49765348,3,Laya the open source version of Jev,https://laya.convaiinnovations.com/,laya.convaiinnovations.com,53,nandakishor_ml,9
