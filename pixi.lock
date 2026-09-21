@@ -1530,7 +1530,7 @@ packages:
 - pypi: ./
   name: scrapeboard
   version: 0.1.0
-  sha256: 99ccb4c52f758e120bdb3ebc502e97e9bc3a68452c887ea4d9b31478cddc5bcf
+  sha256: 07f0658923c7ca1839e0628725552b7e7e710c672d7ef7e7611ece994f2de3a9
   requires_dist:
   - requests
   - beautifulsoup4

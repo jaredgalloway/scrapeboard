@@ -1,13 +1,20 @@
 # The production pipeline: scrape → commit data → build site → deploy to Pages.
 #
-# Runs on a schedule (every six hours), on demand (the "Run workflow" button),
-# and on every push to main (so a code change is live within minutes).
+# Triggers (see docs/operations.md, "Running the scraper"):
+#   * workflow_dispatch  — the "Run workflow" button, or `pixi run scrape-remote`.
+#                          Scrapes, commits the data, builds, deploys.
+#   * push to main       — builds and deploys from the data already committed.
+#                          No scrape, so a code or data push never hits upstreams.
+#   * schedule           — OFF. Uncomment the block below to scrape automatically.
 # See docs/concepts.md for what each piece is and why it exists.
 name: pipeline
 
 on:
-  schedule:
-    - cron: "17 */6 * * *"   # minute 17 of 00:00, 06:00, 12:00, 18:00 UTC
+  # Scheduled scraping is disabled. To turn it back on, uncomment these two
+  # lines and push; GitHub picks up the schedule from main within minutes.
+  # `17 */6 * * *` = minute 17 of 00:00, 06:00, 12:00, 18:00 UTC.
+  # schedule:
+  #   - cron: "17 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -32,7 +39,10 @@ jobs:
         with:
           cache: true          # cache .pixi/ keyed on pixi.lock → ~10 s installs
 
+      # The two scrape steps run for manual (and, if re-enabled, scheduled)
+      # runs only. A push to main just re-publishes what is already in data/.
       - name: Scrape every source
+        if: github.event_name != 'push'
         env:
           # Automatically minted per run, scoped to this repo, expires when the
           # job ends. The GitHub source reads it from the environment.
@@ -40,6 +50,7 @@ jobs:
         run: pixi run scrape
 
       - name: Commit new data
+        if: github.event_name != 'push'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

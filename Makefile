@@ -5,10 +5,10 @@
 # reach for make out of habit. Add tasks in pixi.toml first, then mirror here.
 
 .DEFAULT_GOAL := help
-.PHONY: help install scrape build pipeline serve test lint fmt check clean
+.PHONY: help install scrape scrape-remote build pipeline serve test lint fmt check clean
 
 help: ## Show this help
-	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[1m%-10s\033[0m %s\n", $$1, $$2}'
+	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[1m%-14s\033[0m %s\n", $$1, $$2}'
 
 install:  ## Create/refresh the pixi environment from pixi.lock
 	pixi install
@@ -21,6 +21,9 @@ build:    ## Render data/tidy/*.csv into site/data/*.json
 
 pipeline: ## scrape + build (exactly what CI runs)
 	pixi run pipeline
+
+scrape-remote: ## Trigger one scrape+deploy run on GitHub Actions (needs gh)
+	pixi run scrape-remote
 
 serve:    ## Preview ./site at http://localhost:8000
 	pixi run serve

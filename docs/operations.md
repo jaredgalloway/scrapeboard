@@ -20,18 +20,18 @@ in this repo never need a global Python.
    parser until it passes, and check that the older raw snapshots still parse
    too.
 3. If it is a network error (timeout, 5xx after retries, 429), do nothing for
-   a few hours. Retries are automatic on the next schedule. Persistent 429 or
-   403 means the User-Agent or frequency needs adjusting; lower the cron
-   frequency first.
+   a few hours, then run it again. Persistent 429 or 403 means the User-Agent
+   or frequency needs adjusting; scrape less often first.
 4. The other sources kept publishing throughout. Nothing to restore.
 
 ## The page is stale
 
 The header turns red when the newest data is over fourteen hours old.
 
-* Actions tab shows no recent runs: the schedule was disabled (repos with
-  60 days of no commits, or a manual disable). Actions → pipeline → Enable
-  workflow, then Run workflow.
+* Actions tab shows no recent runs: expected, scheduled scraping is off (see
+  "Running the scraper" below). Trigger a run, or turn the schedule on. If a
+  schedule *was* on and stopped, GitHub pauses schedules on repos with 60 days
+  of no commits: Actions → pipeline → Enable workflow.
 * Runs exist but fail at "Commit new data": someone pushed to `main` between
   checkout and push. The `git pull --rebase` normally handles it; if a real
   conflict in `data/` occurred, re-run the workflow. It is idempotent.
@@ -61,12 +61,68 @@ pixi run build && pixi run serve
 
 Commit the regenerated CSV.
 
-## Pause or change the schedule
+## Running the scraper
 
-* Pause: Actions → pipeline → "…" → Disable workflow. Re-enable the same way.
-* Change frequency: edit the `cron:` line in `.github/workflows/pipeline.yml`.
-  Keep the odd minute.
-* Run now: Actions → pipeline → Run workflow (or `gh workflow run pipeline`).
+Scheduled scraping is **off** by default. Nothing touches the upstreams until
+you ask. There are three ways to ask, cheapest first.
+
+### 1. Locally, no publish
+
+```bash
+pixi run pipeline   # scrape every source, then build site/data/
+pixi run serve      # look at it on http://localhost:8000
+```
+
+`data/` now has new snapshots and rows. Leave them uncommitted if this was
+just a look, or commit them to keep the history.
+
+### 2. Locally, then publish
+
+```bash
+pixi run scrape
+git add data && git commit -m "data: scrape $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+git push
+```
+
+A push to `main` runs the `pipeline` workflow in *deploy-only* mode: it
+builds from the committed `data/` and publishes, without scraping again. So
+this path also publishes any code change.
+
+### 3. On GitHub, from anywhere
+
+```bash
+pixi run scrape-remote      # or: gh workflow run pipeline
+```
+
+or Actions → pipeline → Run workflow. The runner scrapes, commits the data
+to `main` as `github-actions[bot]`, builds, and deploys. Pull afterwards to
+get the new rows locally. This is the same thing the schedule would do.
+
+### Turn the schedule on
+
+In `.github/workflows/pipeline.yml`, uncomment the two `schedule:` lines:
+
+```yaml
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+```
+
+Commit and push. GitHub reads the schedule from `main`, so the first
+automatic run happens at the next matching time (here 00:17, 06:17, 12:17,
+18:17 UTC). Change the cron line to change the cadence; keep an odd minute.
+To turn it off again, comment the lines back out. Nothing else in the
+workflow needs to change: the scrape steps run for every trigger except
+`push`.
+
+### Emergency stop
+
+Actions → pipeline → "…" → Disable workflow. This blocks *every* trigger,
+manual and push included, until you re-enable it. Prefer commenting out the
+cron for the normal case.
 
 ## Secrets
 

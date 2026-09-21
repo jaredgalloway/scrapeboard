@@ -42,6 +42,7 @@ scrapeboard = { path = ".", editable = true }
 scrape   = { cmd = "scrapeboard scrape", description = "Fetch every source, snapshot raw payloads, append tidy rows" }
 build    = { cmd = "scrapeboard build",  description = "Render data/tidy/*.csv into site/data/*.json for the dashboard" }
 pipeline = { depends-on = ["scrape", "build"], description = "scrape + build (what CI runs)" }
+scrape-remote = { cmd = "gh workflow run pipeline && echo 'Queued. Watch it at https://github.com/jaredgalloway/scrapeboard/actions/workflows/pipeline.yml'", description = "Trigger one scrape+deploy run on GitHub Actions (needs the gh CLI)" }
 serve    = { cmd = "scrapeboard serve",  description = "Serve ./site on http://localhost:8000 for local preview" }
 sources  = { cmd = "scrapeboard sources", description = "List registered data sources" }
 test     = { cmd = "pytest -q", description = "Run the offline test-suite (fixtures, no network)" }

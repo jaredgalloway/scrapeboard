@@ -37,7 +37,10 @@ A *cron expression* is five fields (`minute hour day-of-month month day-of-week`
 that describe a recurring time. `17 */6 * * *` means "minute 17 of every 6th
 hour": 00:17, 06:17, 12:17, 18:17 UTC.
 
-Where: `.github/workflows/pipeline.yml`, `on.schedule`.
+Where: `.github/workflows/pipeline.yml`, `on.schedule`. **Currently commented
+out**: this repo scrapes on demand, and the cron lines are kept in place so
+turning them on is a two-line uncomment (docs/operations.md, "Turn the
+schedule on").
 
 Two practical details:
 
@@ -45,7 +48,8 @@ Two practical details:
   queue is longest then and runs can be delayed by 15 to 30 minutes. An odd
   minute gets you a runner faster.
 * **Scheduled workflows go dormant** on repos with no commits for 60 days.
-  Here the pipeline itself commits data every run, so it stays awake.
+  With the schedule on, the pipeline itself commits data every run, so it
+  stays awake.
 
 ## 3. CI/CD: the same command, run by a robot
 
